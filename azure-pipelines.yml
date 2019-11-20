@@ -81,7 +81,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'Azure per studenti(72374fba-6bff-4495-8433-cd103672ba58)'
+              azureSubscription: 'GionaSconnection'
               appType: 'webAppLinux'
               appName: 'GionaS'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
